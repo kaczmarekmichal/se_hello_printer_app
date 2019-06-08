@@ -1,7 +1,7 @@
 Simple Flask App
 ================
 
-Aplikacja Dydaktyczna wyświetlająca imię i wiadomość w różnych formatach dla zajęć 
+Aplikacja Dydaktyczna wyświetlająca imię i wiadomość w różnych formatach dla zajęć  
 o Continuous Integration, Continuous Delivery i Continuous Deployment.
 
 - Rozpocząnając pracę z projektem (wykorzystując virtualenv). Hermetyczne środowisko dla pojedyńczej aplikacji w python-ie:
