@@ -14,9 +14,8 @@ def index():
     if not output:
         output = PLAIN
     if not name:
-        name=moje_imie
-    return get_formatted(msg, name,
-                         output.lower())
+        name = moje_imie
+    return get_formatted(msg, name, output.lower())
 
 
 @app.route('/outputs')
