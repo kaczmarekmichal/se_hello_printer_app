@@ -42,6 +42,8 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
 
   ::
 
+obie komendy konieczne po restarcie maszyny - podczas sesji wystarczy same workon 
+
     $ source /usr/local/bin/virtualenvwrapper.sh # nie trzeba, jeśli już w .bashrc
     $ workon wsb-simple-flask-app
     
