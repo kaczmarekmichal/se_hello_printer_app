@@ -11,6 +11,8 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
    
    
 1. 
+
+można przejść do sekcji pomocnicze
     # ubuntu, add to ~/.bashrc
     $ source /usr/local/bin/virtualenvwrapper.sh
 
