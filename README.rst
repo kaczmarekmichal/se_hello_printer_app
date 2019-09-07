@@ -1,16 +1,16 @@
 Simple Flask App
 ================
 
-Aplikacja Dydaktyczna wyświetlająca imię i wiadomość w różnych formatach dla zajęć  
+Aplikacja Dydaktyczna wyświetlająca imię i wiadomość w różnych formatach dla zajęć
 o Continuous Integration, Continuous Delivery i Continuous Deployment.
 
 - Rozpocząnając pracę z projektem (wykorzystując virtualenv). Hermetyczne środowisko dla pojedyńczej aplikacji w python-ie:
 
   ::
 
-   
-   
-1. 
+
+
+1.
 
 można przejść do sekcji pomocnicze
     # ubuntu, add to ~/.bashrc
@@ -25,7 +25,7 @@ można przejść do sekcji pomocnicze
 
 - Uruchamianie applikacji:
 
-  :: 
+  ::
 
     # jako zwykły program
     $ python main.py
@@ -44,11 +44,11 @@ można przejść do sekcji pomocnicze
 
   ::
 
-obie komendy konieczne po restarcie maszyny - podczas sesji wystarczy same workon 
+obie komendy konieczne po restarcie maszyny - podczas sesji wystarczy same workon
 
     $ source /usr/local/bin/virtualenvwrapper.sh # nie trzeba, jeśli już w .bashrc
     $ workon wsb-simple-flask-app
-    
+
     ...
 
     # deaktywacja virtualenv
@@ -87,10 +87,10 @@ Centos
     $ pip install -U pip
     $ pip install virtualenv
     $ pip install virtualenvwrapper
-  
+
 - Instalacja docker-a:
 
-  :: 
+  ::
 
     $ yum remove docker \
         docker-common \
@@ -115,3 +115,5 @@ Materiały
 
 
 heroku koniecznie dodac do gita bo na tym sie opiera
+
+dodano monitoring aplikaci na statuscake.com, w razie problemów zostanie wysłana wiadomość
