@@ -117,3 +117,6 @@ Materiały
 heroku koniecznie dodac do gita bo na tym sie opiera
 
 dodano monitoring aplikaci na statuscake.com, w razie problemów zostanie wysłana wiadomość
+
+.. image:: https://travis-ci.com/kaczmarekmichal/se_hello_printer_app.svg?branch=master
+    :target: https://travis-ci.com/kaczmarekmichal/se_hello_printer_app
