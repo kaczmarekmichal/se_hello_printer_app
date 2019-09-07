@@ -120,3 +120,6 @@ dodano monitoring aplikaci na statuscake.com, w razie problemów zostanie wysła
 
 .. image:: https://travis-ci.com/kaczmarekmichal/se_hello_printer_app.svg?branch=master
     :target: https://travis-ci.com/kaczmarekmichal/se_hello_printer_app
+
+.. image:: https://app.statuscake.com/button/index.php?Track=5168434&Days=1000&Design=2r
+    :target: https://app.statuscake.com/button/index.php?Track=5168434&Days=1000&Design=2
