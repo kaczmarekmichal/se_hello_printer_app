@@ -112,3 +112,6 @@ Materiały
 =========
 
 - https://virtualenvwrapper.readthedocs.io/en/latest/
+
+
+heroku koniecznie dodac do gita bo na tym sie opiera
