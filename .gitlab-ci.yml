@@ -6,9 +6,9 @@ test:
   image: "python:2.7"
   stage: test
   script:
-    - apk add --update make
-    - make docker_build
-
+    - make deps
+    - make lint
+    - make test
 docker:
   image: docker:stable
   services:
