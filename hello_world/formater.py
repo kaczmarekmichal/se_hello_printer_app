@@ -1,3 +1,6 @@
+from lxml import etree
+from xml.etree import ElementTree
+
 PLAIN = "plain"
 PLAIN_UP = "plain_uppercase"
 PLAIN_LO = "plain_lowercase"
@@ -40,6 +43,5 @@ def plain_text_lower_case(msg, imie):
 
 
 def format_to_xml(msg, imie):
-
-    return ('<greetings>\n' + '<name>' + imie + '</name>\n' + '<msg>'
-            + msg + '</msg>\n' + '</greetings>')
+    return ('<greatings> <name>' + imie + '</name> <msg>' + msg +
+            '</msg> </greetings>')
