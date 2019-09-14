@@ -18,5 +18,6 @@ class FlaskrTestCase(unittest.TestCase):
 
     def test_output_xml(self):
         rv = self.app.get('/?output=xml')
-        self.assertEquals('<greetings><name>' + 'Michal' + '</name><msg>' + 'Hello World!' +
-            '</msg></greetings>', rv.data)
+        self.assertEquals('<greetings><name>' + 'Michal' + '</name><msg>'
+                          + 'Hello World!' +
+                          '</msg></greetings>', rv.data)
